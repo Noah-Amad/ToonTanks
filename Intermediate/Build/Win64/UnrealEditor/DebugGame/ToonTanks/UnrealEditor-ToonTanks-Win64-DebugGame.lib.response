@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ToonTanks-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
+"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\DebugGame\ToonTanks\BasePawn.cpp.obj"
+"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\DebugGame\ToonTanks\Tank.cpp.obj"
+"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\DebugGame\ToonTanks\ToonTanks.cpp.obj"
+"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\DebugGame\ToonTanks\BasePawn.gen.cpp.obj"
+"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\DebugGame\ToonTanks\Tank.gen.cpp.obj"
+"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\DebugGame\ToonTanks\ToonTanks.init.gen.cpp.obj"
+"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\DebugGame\ToonTanks\Default.rc2.res"
+/OUT:"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\DebugGame\ToonTanks\UnrealEditor-ToonTanks-Win64-DebugGame.lib"

@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\amadt\\onedrive\\documents\\unreal projects\\toon tanks\\toontanks\\toontanks\\source\\toontanks\\toontanks.cpp",
+        "Source": "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\source\\toontanks\\toontanks.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\amadt\\onedrive\\documents\\unreal projects\\toon tanks\\toontanks\\toontanks\\intermediate\\build\\win64\\toontankseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\intermediate\\build\\win64\\toontankseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\amadt\\onedrive\\documents\\unreal projects\\toon tanks\\toontanks\\toontanks\\intermediate\\build\\win64\\unrealeditor\\development\\toontanks\\definitions.toontanks.h",
-            "c:\\users\\amadt\\onedrive\\documents\\unreal projects\\toon tanks\\toontanks\\toontanks\\source\\toontanks\\toontanks.h"
+            "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\intermediate\\build\\win64\\unrealeditor\\development\\toontanks\\definitions.toontanks.h",
+            "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\source\\toontanks\\toontanks.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

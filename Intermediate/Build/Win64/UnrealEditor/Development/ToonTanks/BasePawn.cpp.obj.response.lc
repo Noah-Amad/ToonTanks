@@ -1,4 +1,4 @@
-"C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Source\ToonTanks\BasePawn.cpp"
+C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Source\ToonTanks\BasePawn.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -251,8 +251,8 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I "C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Inc\ToonTanks"
-/I "C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Source"
+/I C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Inc\ToonTanks
+/I C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Source
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
@@ -273,12 +273,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\Definitions.ToonTanks.h"
-/Yu"C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\BasePawn.cpp.lc.obj"
-/sourceDependencies"C:\Users\amadt\OneDrive\Documents\Unreal Projects\Toon Tanks\ToonTanks\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\BasePawn.cpp.lc.json"
+/FI"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\Definitions.ToonTanks.h"
+/Yu"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\BasePawn.cpp.lc.obj"
+/sourceDependencies"C:\Users\amadt\OneDrive\Documents\GitHub\ToonTanks\Intermediate\Build\Win64\UnrealEditor\Development\ToonTanks\BasePawn.cpp.lc.json"
 /Zc:inline
 /nologo
 /Oi

@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\source\\toontanks\\tank.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\intermediate\\build\\win64\\toontankseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\intermediate\\build\\win64\\unrealeditor\\development\\toontanks\\definitions.toontanks.h",
+            "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\source\\toontanks\\tank.h",
+            "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\source\\toontanks\\basepawn.h",
+            "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\basepawn.generated.h",
+            "c:\\users\\amadt\\onedrive\\documents\\github\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\tank.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

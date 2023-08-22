@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ToonTanks",
-			"Path": "C:\\Users\\amadt\\OneDrive\\Documents\\Unreal Projects\\Toon Tanks\\ToonTanks\\ToonTanks\\Source\\ToonTanks.Target.cs",
+			"Path": "C:\\Users\\amadt\\OneDrive\\Documents\\GitHub\\ToonTanks\\Source\\ToonTanks.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ToonTanksEditor",
-			"Path": "C:\\Users\\amadt\\OneDrive\\Documents\\Unreal Projects\\Toon Tanks\\ToonTanks\\ToonTanks\\Source\\ToonTanksEditor.Target.cs",
+			"Path": "C:\\Users\\amadt\\OneDrive\\Documents\\GitHub\\ToonTanks\\Source\\ToonTanksEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
