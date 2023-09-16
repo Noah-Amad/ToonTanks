@@ -14,8 +14,35 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 	TOONTANKS_API UClass* Z_Construct_UClass_ABasePawn();
 	UPackage* Z_Construct_UPackage__Script_ToonTanks();
 // End Cross Module References
+	static FName NAME_ATower_UpdateUITowerCount = FName(TEXT("UpdateUITowerCount"));
+	void ATower::UpdateUITowerCount()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ATower_UpdateUITowerCount),NULL);
+	}
 	void ATower::StaticRegisterNativesATower()
 	{
+	}
+	struct Z_Construct_UFunction_ATower_UpdateUITowerCount_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATower_UpdateUITowerCount_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Tower.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATower_UpdateUITowerCount_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATower, nullptr, "UpdateUITowerCount", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATower_UpdateUITowerCount_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATower_UpdateUITowerCount_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATower_UpdateUITowerCount()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATower_UpdateUITowerCount_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ATower);
 	UClass* Z_Construct_UClass_ATower_NoRegister()
@@ -25,6 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 	struct Z_Construct_UClass_ATower_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -43,6 +71,9 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 	UObject* (*const Z_Construct_UClass_ATower_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ABasePawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_ToonTanks,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ATower_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATower_UpdateUITowerCount, "UpdateUITowerCount" }, // 2589289443
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATower_Statics::Class_MetaDataParams[] = {
@@ -78,11 +109,11 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ATower_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ATower_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -106,9 +137,9 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ToonTanks_Source_ToonTanks_Tower_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATower, ATower::StaticClass, TEXT("ATower"), &Z_Registration_Info_UClass_ATower, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATower), 3212086633U) },
+		{ Z_Construct_UClass_ATower, ATower::StaticClass, TEXT("ATower"), &Z_Registration_Info_UClass_ATower, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATower), 1512316454U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ToonTanks_Source_ToonTanks_Tower_h_1870802800(TEXT("/Script/ToonTanks"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ToonTanks_Source_ToonTanks_Tower_h_931880891(TEXT("/Script/ToonTanks"),
 		Z_CompiledInDeferFile_FID_ToonTanks_Source_ToonTanks_Tower_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ToonTanks_Source_ToonTanks_Tower_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

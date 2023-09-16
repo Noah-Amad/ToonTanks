@@ -28,6 +28,7 @@ void ATower::Tick(float DeltaTime)
 
 void ATower::HandleDestruction()
 {
+	UpdateUITowerCount();
 	Super::HandleDestruction();
 	Destroy();
 }

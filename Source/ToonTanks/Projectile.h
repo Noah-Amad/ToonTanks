@@ -43,12 +43,19 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Combat")
 	TSubclassOf<class UCameraShakeBase> HitCameraShakeClass;
 
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class ATank* Tank;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void UpdateUIHealth();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 
 };

@@ -22,10 +22,14 @@ protected:
 	virtual void BeginPlay() override;
 
 	UFUNCTION(BlueprintImplementableEvent)
+	void DuringGame();
+
+	UFUNCTION(BlueprintImplementableEvent)
 	void StartGame();
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void GameOver(bool bWonGame);
+
 
 private:
 	class ATank* Tank;
